@@ -23,9 +23,9 @@ var api = 'http://api.openweathermap.org/data/2.5/weather?q=';
                               temp+="<td>"+data.sys.country+"</td>";
                              temp+="<td>"+data.weather[0].description+"</td>";
                              temp+="<td>"+data.main.temp+"</td>";
-                            
+                            temp+="<td>"+data.main.temp_max+"</td>";
                              temp+="<td>"+data.main.temp_min+"</td>";
-                             temp+="<td>"+data.main.temp_max+"</td>";
+                             
                            temp+="</tr>"
                            
 
