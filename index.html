@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<head>
+    <title>WEATHER APPLICATION</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="WeatherApp.js"></script>
+    <link rel="Stylesheet" href="WeatherApp.css">
+  </head>
+
+  <body class="bg-primary"> 
+      
+     <center> 
+        <h1 >WEATHER APPLICATION</h1> 
+        <form action="#" onsubmit="f1()">
+            <span id="en">ENTER CITY NAME :</span> <input type="text" id="d" name="d">
+          
+
+          <input class="btn btn-info"type="button" value="Get Data" onclick="f1()">
+      </form>
+      <h1 ><p id="da" ></p></h1>
+<table border=1 class=" table table-striped">
+    <tr class="table-primary" >
+        <th>CITY NAME</th>
+        <th>COUNTRY</th>
+    <th>WEATHER DESCRIPTION</th>
+    <th>CURRENT TEMP</th>
+    <th>MAXIMUM TEMP</th>
+    <th>MINIMUM TEMP</th>
+    
+    
+    
+    </tr><tbody id="data">
+
+    </tbody>
+</table> </center>
+ 
+    
+  </body>
+</html>
